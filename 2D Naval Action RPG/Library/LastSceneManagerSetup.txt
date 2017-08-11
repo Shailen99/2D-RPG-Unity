@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Main Ocean Hub.unity
+  isLoaded: 1
+  isActive: 1
