@@ -6,21 +6,13 @@ using UnityEngine.SceneManagement;
 public class LoadNewArea : MonoBehaviour {
 
 	public string levelToLoad;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-	void onTriggerEnter2D(Collider2D other)
+	void OnTriggerEnter2D(Collider2D col)
 	{
-		if (other.gameObject.name == "Player") 
+		if (col.gameObject.name == "Player") 
 		{
-			Application.LoadLevel (levelToLoad);
+			SceneManager.LoadScene(levelToLoad);
+			//Destroy(col.gameObject);
 		}
 	}
 }
