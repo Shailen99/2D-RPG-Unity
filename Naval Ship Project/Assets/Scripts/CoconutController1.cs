@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlimeController: MonoBehaviour {
+public class CoconutController1 : MonoBehaviour {
 
 	public float moveSpeed;
 
@@ -54,12 +54,4 @@ public class SlimeController: MonoBehaviour {
 		}
 	}
 
-	//Player Killing
-	void OnCollisionEnter2D (Collision2D other)
-	{
-		if (other.gameObject.tag == "Player") {
-			Destroy (other.gameObject);
-		}
-	}
 }
-

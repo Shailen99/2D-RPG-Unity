@@ -86,9 +86,10 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/CameraController.cs'
+'Assets/Scripts/CoconutController.cs'
 'Assets/Scripts/LoadNewArea.cs'
 'Assets/Scripts/PlayerController.cs'
-'Assets/Scripts/SlimeController.cs'
+'Assets/StickActivator.cs'
 'Assets/Tiled2Unity/Scripts/Runtime/CircleObject.cs'
 'Assets/Tiled2Unity/Scripts/Runtime/GPUInstancing.cs'
 'Assets/Tiled2Unity/Scripts/Runtime/GameObjectExtensions.cs'
