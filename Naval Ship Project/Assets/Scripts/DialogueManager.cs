@@ -40,4 +40,9 @@ public class DialogueManager : MonoBehaviour {
 		dBox.SetActive (true);
 		dText.text = dialogue;
 	}
+	public void showDialogue()
+	{
+		dialogActive = true;
+		dBox.SetActive (true);
+	}
 }

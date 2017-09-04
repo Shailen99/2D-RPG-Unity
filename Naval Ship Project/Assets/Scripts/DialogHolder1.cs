@@ -8,6 +8,8 @@ public class DialogHolder1 : MonoBehaviour {
 	public string dialogue;
 	private DialogueManager dCoconut;
 
+	public string[] dialogueLines;
+
 	// Use this for initialization
 	void Start () {
 		dCoconut = FindObjectOfType<DialogueManager> ();
@@ -24,7 +26,12 @@ public class DialogHolder1 : MonoBehaviour {
 		{
 			if(Input.GetKeyUp(KeyCode.Space))
 			{
-				dCoconut.ShowBox (dialogue);
+				//dCoconut.ShowBox (dialogue);
+				if (!dCoconut.dialogActive) {
+					dCoconut.dialogLines = dialogueLines;
+					dCoconut.currentLine = 0;
+					dCoconut.showDialogue();
+				}
 			}
 		}
 	}
