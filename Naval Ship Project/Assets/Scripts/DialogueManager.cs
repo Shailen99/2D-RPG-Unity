@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour {
 
 			currentLine = 0;
 		}
-		dText.text = dialogLines [currentLine];
+		dText.text = dialogLines[currentLine];
 	}
 	public void ShowBox(string dialogue)
 	{

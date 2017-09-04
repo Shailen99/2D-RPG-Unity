@@ -24,7 +24,7 @@ public class DialogHolder1 : MonoBehaviour {
 	{
 		if(other.gameObject.name == "Player")
 		{
-			if(Input.GetKeyUp(KeyCode.Space))
+			if(Input.GetKey(KeyCode.Space))
 			{
 				//dCoconut.ShowBox (dialogue);
 				if (!dCoconut.dialogActive) {
