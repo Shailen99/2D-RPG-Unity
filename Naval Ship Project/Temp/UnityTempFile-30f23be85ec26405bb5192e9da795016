@@ -88,6 +88,7 @@
 'Assets/Scripts/CoconutController1.cs'
 'Assets/Scripts/DialogHolder1.cs'
 'Assets/Scripts/DialogueManager.cs'
+'Assets/Scripts/GateTrigger.cs'
 'Assets/Scripts/LoadNewArea.cs'
 'Assets/Scripts/PlayerController.cs'
 'Assets/Scripts/WeaponActivator.cs'
