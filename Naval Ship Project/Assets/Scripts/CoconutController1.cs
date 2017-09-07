@@ -53,5 +53,4 @@ public class CoconutController1 : MonoBehaviour {
 			movedirection = new Vector3(Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f);
 		}
 	}
-
 }

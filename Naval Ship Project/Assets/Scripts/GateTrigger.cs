@@ -6,6 +6,7 @@ public class GateTrigger : MonoBehaviour {
 
 	public GameObject Gate;
 	public GameObject Gtrigger;
+	public GameObject Enemy;
 
 	public bool GateActive;
 	// Use this for initialization
@@ -24,6 +25,7 @@ public class GateTrigger : MonoBehaviour {
 			Gtrigger.SetActive (false);
 			GateActive = true;
 			Gate.SetActive (true);
+			Enemy.SetActive (true);
 		}
 	}
 
