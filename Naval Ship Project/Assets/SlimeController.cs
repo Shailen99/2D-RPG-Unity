@@ -47,7 +47,7 @@ public class SlimeController : MonoBehaviour {
 				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed,Random.Range(1f,-1f) * moveSpeed, 0f);
 			}
 		}
-		if (reloading = true) {
+		if (reloading == true) {
 			waitToReload -= Time.deltaTime;
 			if (waitToReload < 0) {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
