@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 770
-  m_MinSize: {x: 681, y: 342}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 636, y: 342}
+  m_MaxSize: {x: 18006, y: 10021}
   vertical: 0
-  controlID: 13747
+  controlID: 4262
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 342}
   m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 13748
+  controlID: 4263
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 13749
+  controlID: 4264
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,9 +201,9 @@ MonoBehaviour:
     height: 445
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 8a250000
     m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffffe8fbffff00000000
+    m_ExpandedIDs: c025ffffbe2cffff022effffe8fbffff000000008c280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -281,14 +281,14 @@ MonoBehaviour:
     width: 860
     height: 445
   m_SceneLighting: 1
-  lastFramingTime: 4191.82955801487
+  lastFramingTime: 110.41881901025772
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.176624, y: -9.40824, z: -10}
+    m_Target: {x: -2.3245158, y: -10.714827, z: 0}
     speed: 2
-    m_Value: {x: 11.176624, y: -9.40824, z: -10}
+    m_Value: {x: -2.3245158, y: -10.714827, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -315,9 +315,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 22
+    m_Target: 14.986022
     speed: 2
-    m_Value: 22
+    m_Value: 14.986022
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -350,10 +350,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 286
+    y: 94
+    width: 860
+    height: 445
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -501,14 +501,14 @@ MonoBehaviour:
     y: 0
     width: 292
     height: 770
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -579,19 +579,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 63
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 63
   m_LastProjectPath: /Users/shailensheth/Naval Ship Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6250000
-    m_LastClickedID: 9670
-    m_ExpandedIDs: 00000000fc240000a2250000da2500004a2900004c2900004e2900005029000000ca9a3bffffff7f
+    m_SelectedIDs: d0250000
+    m_LastClickedID: 9680
+    m_ExpandedIDs: 0000000002250000a8250000e0250000b8290000ba290000bc290000be29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc240000a2250000da2500004a2900004c2900004e2900005029000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000002250000a8250000e0250000b8290000ba290000bc290000be29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,9 +644,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e6fbffff
-    m_LastClickedInstanceID: -1050
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 8a250000
+    m_LastClickedInstanceID: 9610
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000086250000242500002a25000064250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
