@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class EnemyHurt : MonoBehaviour {
 
-	public GameObject Enterance;
+	public GameObject Entrance;
 	public GameObject Exit;
+	public int damageToGive;
+	public GameObject damageBurst;
+	public Transform hitPoint;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,9 +21,11 @@ public class EnemyHurt : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.tag == "Enemy") {
-			Destroy (other.gameObject);
+			other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
+			//Tutorial Area
 			Exit.SetActive (false);
-			Enterance.SetActive (false);
+			Entrance.SetActive (false);
+			Instantiate (damageBurst, hitPoint.position, hitPoint.rotation);
 		}
 	}
 }

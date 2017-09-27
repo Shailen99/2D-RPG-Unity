@@ -6,6 +6,7 @@ public class PlayerHealthSystem : MonoBehaviour {
 
 	public int playerMaxHealth;
 	public int playerCurrentHealth;
+
 	// Use this for initialization
 	void Start () {
 		playerMaxHealth = playerCurrentHealth;

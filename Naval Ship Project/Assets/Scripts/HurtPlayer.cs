@@ -17,7 +17,7 @@ public class HurtPlayer : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other)
 	{ 
 		if (other.gameObject.name == "Player") {
-			other.gameObject.GetComponent<PlayerHealthSystem> ().PlayerHurt(damageToGive);
+			other.gameObject.GetComponent<PlayerHealthSystem>().PlayerHurt(damageToGive);
 		}
 	}
 }
