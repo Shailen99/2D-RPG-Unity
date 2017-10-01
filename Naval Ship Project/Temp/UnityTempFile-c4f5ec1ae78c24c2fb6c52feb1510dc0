@@ -86,12 +86,12 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/BossGateTrigger.cs'
-'Assets/Scripts/ChaseAI.cs'
 'Assets/Scripts/CoconutController.cs'
 'Assets/Scripts/DialogHolder.cs'
 'Assets/Scripts/DialogueManager.cs'
 'Assets/Scripts/EnemyHealthManager.cs'
 'Assets/Scripts/EnemyHurt.cs'
+'Assets/Scripts/FlyAi.cs'
 'Assets/Scripts/GateTrigger.cs'
 'Assets/Scripts/HurtPlayer.cs'
 'Assets/Scripts/KeyActivator.cs'
