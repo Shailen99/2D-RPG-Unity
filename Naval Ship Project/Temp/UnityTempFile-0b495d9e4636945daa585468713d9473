@@ -89,6 +89,7 @@
 'Assets/Scripts/CoconutController.cs'
 'Assets/Scripts/DialogHolder.cs'
 'Assets/Scripts/DialogueManager.cs'
+'Assets/Scripts/EatFood.cs'
 'Assets/Scripts/EnemyHealthManager.cs'
 'Assets/Scripts/EnemyHurt.cs'
 'Assets/Scripts/FlyAi.cs'
