@@ -17,6 +17,6 @@ public class UIManager : MonoBehaviour {
 	void Update () {
 		healthBar.maxValue = playerHealth.playerMaxHealth;
 		healthBar.value = playerHealth.playerCurrentHealth;
-		HPText.text = "HP: " + playerHealth.playerCurrentHealth;
+		HPText.text = "HP: " + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;
 	}
 }
