@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 495}
   m_MaxSize: {x: 14004, y: 14045}
   vertical: 0
-  controlID: 1586
+  controlID: 20740
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 495}
   m_MaxSize: {x: 10002, y: 14045}
   vertical: 1
-  controlID: 1587
+  controlID: 20741
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 1588
+  controlID: 20742
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,7 +237,7 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 19}
   m_Selected: 2
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,9 +367,9 @@ MonoBehaviour:
     height: 446
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 90280000
-    m_LastClickedID: 10384
-    m_ExpandedIDs: e8fbffff0000000096280000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 3aa2f9ff38acfdffe8fbffff0000000030270000762700003c29000076290000ce2a0000f42b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,14 +419,14 @@ MonoBehaviour:
     width: 860
     height: 446
   m_SceneLighting: 1
-  lastFramingTime: 2485.5532619953156
+  lastFramingTime: 3857.4234140515327
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.544319, y: -18.943415, z: 0}
+    m_Target: {x: 3.5639684, y: -19.072996, z: 0}
     speed: 2
-    m_Value: {x: -9.544319, y: -18.943415, z: 0}
+    m_Value: {x: 3.5639684, y: -19.072996, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -453,9 +453,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 20.680061
+    m_Target: 95.56044
     speed: 2
-    m_Value: 20.680061
+    m_Value: 95.56044
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -517,14 +517,16 @@ MonoBehaviour:
     x: 286
     y: 94
     width: 860
-    height: 445
+    height: 446
   m_ViewPositions:
     m_KeySerializationHelper:
     - {fileID: 1107608411577544148, guid: 86aac89ad8d184f498eeb0f8bdc5805b, type: 2}
     - {fileID: 1107103837741161258, guid: a99e44ea6eb404cd0b0fc4f5c269334a, type: 2}
+    - {fileID: 1107529901910624144, guid: 6178cfade72e7481f88a8ab70fef4e70, type: 2}
     m_ValueSerializationHelper:
     - {x: 466.00003, y: 181.3042}
     - {x: 466.00003, y: 267}
+    - {x: 466.00003, y: 247.6}
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: 6178cfade72e7481f88a8ab70fef4e70,
     type: 2}
@@ -566,7 +568,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 560
+    y: 561
     width: 1146
     height: 282
 --- !u!114 &18
@@ -634,18 +636,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 54
   m_LastProjectPath: /Users/shailensheth/Naval Ship Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee250000
-    m_LastClickedID: 9710
+    m_SelectedIDs: f2250000
+    m_LastClickedID: 9714
     m_ExpandedIDs: 0000000010250000ca25000002260000a42c0000a62c0000a82c0000aa2c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -701,7 +703,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000086250000242500002a25000064250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -718,7 +720,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

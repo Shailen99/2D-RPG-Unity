@@ -6,6 +6,7 @@ public class EnemyHurt : MonoBehaviour {
 
 	public GameObject Entrance;
 	public GameObject Exit;
+	public GameObject OverworldEnter;
 	public int damageToGive;
 	public GameObject damageBurst;
 	public Transform hitPoint;
@@ -24,6 +25,7 @@ public class EnemyHurt : MonoBehaviour {
 			other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
 			//Tutorial Area
 			Exit.SetActive (false);
+			OverworldEnter.SetActive (true);
 			Entrance.SetActive (false);
 			Instantiate (damageBurst, hitPoint.position, hitPoint.rotation);
 		}

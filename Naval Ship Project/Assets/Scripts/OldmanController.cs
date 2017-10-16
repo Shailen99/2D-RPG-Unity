@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoconutController1 : MonoBehaviour {
+public class OldmanController : MonoBehaviour {
 
 	public float moveSpeed;
 

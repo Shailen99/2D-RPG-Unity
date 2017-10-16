@@ -22,7 +22,7 @@ public class PlayerHealthSystem : MonoBehaviour {
 	{
 		playerCurrentHealth -= damageToGive;
 	}
-	public void PlayerHelp(int healthToGive)
+	public void PlayerHeal(int healthToGive)
 	{
 		playerCurrentHealth += healthToGive;
 	}

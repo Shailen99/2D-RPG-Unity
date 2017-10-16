@@ -21,7 +21,6 @@ public class GateTrigger : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (GateActive && other.gameObject.name == "Player") {
-
 			Gtrigger.SetActive (false);
 			GateActive = true;
 			Gate.SetActive (true);

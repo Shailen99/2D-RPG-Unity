@@ -30,4 +30,5 @@ public class EnemyHealthManager : MonoBehaviour {
 	{
 		CurrentHealth = MaxHealth;
 
-	}}
+	}
+}

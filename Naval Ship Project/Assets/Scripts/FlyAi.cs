@@ -13,9 +13,6 @@ public class FlyAi : MonoBehaviour {
 	public float chaseRange;
 	// Use this for initialization
 	void Start () {
-		currentPatrolIndex = 0;
-		currentPatrolPoint = patrolPoints [currentPatrolIndex];
-
 	}
 	
 	// Update is called once per frame
