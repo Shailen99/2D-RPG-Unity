@@ -103,6 +103,7 @@
 'Assets/Scripts/PlayerHealthSystem.cs'
 'Assets/Scripts/PlayerStats.cs'
 'Assets/Scripts/RangedAI.cs'
+'Assets/Scripts/ScrollActivator.cs'
 'Assets/Scripts/UIManager.cs'
 'Assets/Scripts/WeaponActivator.cs'
 'Assets/Scripts/showTurtleMinions.cs'
