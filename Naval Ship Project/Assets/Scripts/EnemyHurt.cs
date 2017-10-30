@@ -27,6 +27,7 @@ public class EnemyHurt : MonoBehaviour {
 			Exit.SetActive (false);
 			OverworldEnter.SetActive (true);
 			Entrance.SetActive (false);
+
 			Instantiate (damageBurst, hitPoint.position, hitPoint.rotation);
 		}
 	}
