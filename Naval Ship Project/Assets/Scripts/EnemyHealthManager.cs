@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyHealthManager : MonoBehaviour {
 
+	public GameObject tree;
+	public GameObject wood;
+
 	public int MaxHealth;
 	public int CurrentHealth;
 
@@ -20,6 +23,8 @@ public class EnemyHealthManager : MonoBehaviour {
 		if (CurrentHealth < 0) {
 			Destroy (gameObject);
 			thePlayerStats.AddExperience (expToGive);
+			tree.SetActive (false);
+			wood.SetActive (true);
 		}
 	}
 	public void HurtEnemy(int damageToGive)
