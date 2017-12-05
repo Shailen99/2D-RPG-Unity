@@ -23,12 +23,8 @@ public class EnemyHurt : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Enemy") {
 			other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
-			//Tutorial Area
-			Exit.SetActive (false);
-			OverworldEnter.SetActive (true);
-			Entrance.SetActive (false);
-
 			Instantiate (damageBurst, hitPoint.position, hitPoint.rotation);
 		}
 	}
+
 }
