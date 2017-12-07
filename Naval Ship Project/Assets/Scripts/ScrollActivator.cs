@@ -6,25 +6,25 @@ using UnityEngine.UI;
 
 public class ScrollActivator : MonoBehaviour {
 
-	public GameObject OldScroll;
+	public GameObject Scroll;
 
 	public bool scrollActive;
 	// Use this for initialization
 	void Start () {
-		
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (scrollActive && Input.GetKeyDown (KeyCode.Space))
 			{
-			OldScroll.SetActive (false);
+			Scroll.SetActive (false);
 			}
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.name == "Player") {
-			OldScroll.SetActive (true);
+			Scroll.SetActive (true);
 			scrollActive = true;
 		}
 	}
