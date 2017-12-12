@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class GateTrigger : MonoBehaviour {
 
-	public GameObject Gate;
+	public GameObject Gate1;
+	public GameObject Gate2;
 	public GameObject Gtrigger;
 	public GameObject Enemy;
+	public GameObject HiddenPath;
+
 
 	public bool GateActive;
 	// Use this for initialization
@@ -23,9 +26,10 @@ public class GateTrigger : MonoBehaviour {
 		if (GateActive && other.gameObject.name == "Player") {
 			Gtrigger.SetActive (false);
 			GateActive = true;
-			Gate.SetActive (true);
+			Gate1.SetActive (true);
+			Gate2.SetActive(true);
 			Enemy.SetActive (true);
+			HiddenPath.SetActive(false);
+			}
 		}
 	}
-
-}
