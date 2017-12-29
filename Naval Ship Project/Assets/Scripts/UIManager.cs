@@ -1,4 +1,3 @@
-﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -21,7 +20,7 @@ public class UIManager : MonoBehaviour {
 		}
 		thePS = GetComponent<PlayerStats>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		healthBar.maxValue = playerHealth.playerMaxHealth;
