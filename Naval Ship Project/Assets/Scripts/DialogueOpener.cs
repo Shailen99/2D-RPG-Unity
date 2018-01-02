@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class DialogueOpener : MonoBehaviour {
 
 	public GameObject dialogBox;
+	public GameObject EnemyHolder;
+public GameObject DialogInitiator;
 	public bool dialogActive;
 	// Use this for initialization
 	void Start () {
@@ -18,6 +20,8 @@ if(dialogActive && Input.GetKeyDown(KeyCode.Space))
 {
 	dialogBox.SetActive(false);
 	dialogActive = false;
+	EnemyHolder.SetActive(true);
+DialogInitiator.SetActive(True);
 }
 	}
 public void ShowBox(string dialogue)
@@ -28,7 +32,11 @@ public void ShowBox(string dialogue)
 
 void OnTriggerEnter2D(Collider2D other)
 {
-
+if(other.gameObject.name == "Player")
+{
+	dialogBox.SetActive(true);
+	dialogActive = true;
+}
 }
 
 }
