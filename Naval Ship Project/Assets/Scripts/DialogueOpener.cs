@@ -21,7 +21,7 @@ if(dialogActive && Input.GetKeyDown(KeyCode.Space))
 	dialogBox.SetActive(false);
 	dialogActive = false;
 	EnemyHolder.SetActive(true);
-DialogInitiator.SetActive(True);
+	DialogInitiator.SetActive(false);
 }
 	}
 public void ShowBox(string dialogue)
@@ -36,6 +36,8 @@ if(other.gameObject.name == "Player")
 {
 	dialogBox.SetActive(true);
 	dialogActive = true;
+	EnemyHolder.SetActive(true);
+
 }
 }
 
