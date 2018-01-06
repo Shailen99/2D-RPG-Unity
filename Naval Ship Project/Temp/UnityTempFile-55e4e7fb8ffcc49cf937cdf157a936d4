@@ -160,6 +160,7 @@
 'Assets/Scripts/HurtPlayer.cs'
 'Assets/Scripts/KeyActivator.cs'
 'Assets/Scripts/LoadNewArea.cs'
+'Assets/Scripts/MerchantDialog.cs'
 'Assets/Scripts/NPCController.cs'
 'Assets/Scripts/PatrolAI.cs'
 'Assets/Scripts/PlayerController.cs'
