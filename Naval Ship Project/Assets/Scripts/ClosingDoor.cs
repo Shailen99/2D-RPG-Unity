@@ -5,8 +5,7 @@ using UnityEngine;
 public class ClosingDoor : MonoBehaviour {
 
 public GameObject HiddenWall;
-public GameObject closingWall;
-public GameObject closingWall2;
+public GameObject EnemyHolder;
 
 	// Use this for initialization
 	void Start () {
@@ -24,8 +23,7 @@ public GameObject closingWall2;
 if(other.gameObject.name == "Player")
 {
 	HiddenWall.SetActive(true);
-	closingWall.SetActive(true);
-	closingWall2.SetActive(true);
+	EnemyHolder.SetActive(true);
 }
 	}
 }
