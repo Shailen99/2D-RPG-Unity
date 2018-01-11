@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class MerchantDialog : MonoBehaviour {
 
-public GameObject WeaponSword;
 public GameObject WeaponAxe;
 
 public GameObject dialogBox;
 public GameObject dialogBox2;
-public bool dialogActive;
-public bool dialogSecondBoxActive;
+public bool dialogActive = true;
+public bool dialogSecondBoxActive = true;
 	// Use this for initialization
 	void Start () {
 
@@ -20,42 +19,31 @@ public bool dialogSecondBoxActive;
 	void Update () {
 		//Dialog Box 1
 if(dialogActive && Input.GetKeyDown(KeyCode.Y))
-{
+ {
 	dialogBox.SetActive(false);
 	dialogActive = false;
 	dialogBox2.SetActive(true);
 	dialogSecondBoxActive = true;
-}
+ }
 if(dialogActive && Input.GetKeyDown(KeyCode.N))
-{
+ {
 	dialogBox.SetActive(false);
 	dialogActive = false;
 	dialogSecondBoxActive = false;
-}
+ }
 //Dialog Box 2
 if(dialogSecondBoxActive && Input.GetKeyDown(KeyCode.Space))
-{
+ {
 	dialogBox2.SetActive(false);
 	dialogSecondBoxActive = false;
-}
-if(dialogSecondBoxActive && Input.GetKeyDown(KeyCode.S))//Sword Option
-{
+ }
+if(dialogSecondBoxActive && Input.GetKeyDown(KeyCode.Y))//Axe Option
+ {
 	dialogBox2.SetActive(false);
 	dialogSecondBoxActive = false;
-	WeaponSword.SetActive(true);
-	WeaponAxe.SetActive(false);
-}
-if(dialogSecondBoxActive && Input.GetKeyDown(KeyCode.A))//Sword Option
-{
-	dialogBox2.SetActive(false);
-	dialogSecondBoxActive = false;
-	WeaponSword.SetActive(false);
 	WeaponAxe.SetActive(true);
-
+ }
 }
-
-
-	}
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
