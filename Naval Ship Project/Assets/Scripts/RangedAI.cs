@@ -18,7 +18,7 @@ public class RangedAI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		float distanceToPlayer = Vector3.Distance (transform.position, target.position);
